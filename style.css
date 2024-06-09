@@ -1,0 +1,122 @@
+
+.logo{
+    width: 60px;
+    height: 60px;
+    transform: translateY(-1px);  
+}
+.brand{
+    transform: translateX(-5px);
+    
+}
+.brand > .bname {
+    float: right;
+    
+   
+}
+.collapse{
+    margin-left: 100px;
+}
+.navbar{
+    background-color: #00172d;
+}
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Add margin to nav-items */
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+form{
+    transform: translateX(-100px);
+}
+.footer-custom {
+    background-color: #00172d; /* Unique color matching the navbar */
+    color: white;
+    padding: 20px 0;
+}
+.footer-custom a {
+    color: white;
+    text-decoration: none;
+}
+.footer-custom a:hover {
+    text-decoration: underline;
+}
+.footer-custom .footer-brand img{
+    max-height: 100px;
+}
+.footer-brand > a {
+    max-height: 100%;
+}
+.background-image {
+    background-image: url('./assets/smilebg.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px; /* Adjust the height as needed */
+    position: relative;
+}
+
+.content {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    height: 100%; /* Make content div take full height of background */
+    width: 500px;
+    position: absolute;
+    right: 0; /* Align to the right */
+    top: 0; /* Align to the top */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+.book {
+    background-color: #00172d;
+}
+.service-div {
+    background-color: #00172d;
+    padding: 50px 0;
+}
+
+.service-box {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+.direction-div {
+    padding: 50px 0;
+    
+}
+.direction2-div{
+    transform: translateY(-26px);
+}
+.direction-img {
+    max-width: 100%;
+    border-radius: 10px;
+    border-color: #00172d ;
+    border-style: solid;
+    margin-left: 50px;
+}
+
+.opening-hours {
+    
+    text-align: left;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+.expert {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodontics</title>
+    <link rel="icon" href="/assets/LOGO.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      .service-container {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 20px 0;
+          padding: 20px;
+          border-bottom: 1px solid #ccc;
+      }
+      .service-container img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 5px;
+      }
+      .service-description {
+          flex: 1;
+          padding-left: 20px;
+      }
+      .service-description h3 {
+          margin-top: 0;
+      }
+      .prices ul {
+          list-style-type: none;
+          padding-left: 0;
+      }
+      .prices ul li {
+          margin: 5px 0;
+      }
+  </style>
+</head>
+<body>
+</head>
+<body>
+    <!-------------------------------------------- Navigation bar------------------------->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark ">
+        <div class="container p-1">
+          <a class="navbar-brand brand" href="index.html">
+            <img class="logo" src="assets/LOGO.png" alt="BrightSmile Logo" class="d-inline-block align-text-top">
+            <div class="bname">
+             <span style="letter-spacing: 0.4rem;">  BrightSmile </span> <br> <span style="font-size: 18px; letter-spacing: 3px;"> Dental care </span> </div> </a>
+            
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./GeneralDentistry.html">General Dentistry</a></li>
+                  <li><a class="dropdown-item" href="./Periodontics.html">Periodontics</a></li>
+                  <li><a class="dropdown-item" href="./PreventiveDentistry.html">Restorative Dentistry</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Our Dentists</a></li>
+                        <li><a class="dropdown-item" href="#">Technology</a></li>
+                        <li><a class="dropdown-item" href="#">Careers</a></li>
+                      </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./BookingPg.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search for keywords..." aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        
+      </nav>
+      <!---------------------------body--------------------------->
+      <div class="container-fluid border border-dark">
+        <div class="service-container">
+          <div class="col-md-4">
+              <img src="./assets/service2s.jpeg" alt="Periodontics"> <!-- Replace with your image path -->
+          </div>
+          <div class="service-description col-md-8">
+              <h3>Periodontics</h3>
+              <p>Periodontics is a specialized field of dentistry that focuses on the health of the gums and the supporting structures of the teeth. This branch of dentistry is essential for diagnosing, preventing, and treating periodontal diseases, such as gingivitis and periodontitis, which can have significant impacts on oral and overall health if left untreated.</p>
+              <p>Gingivitis is the earliest stage of gum disease, characterized by red, swollen, and bleeding gums. If not addressed, it can progress to periodontitis, a more severe condition that affects the bone and connective tissues supporting the teeth. Periodontitis can lead to tooth loss and has been linked to other systemic health issues, including heart disease and diabetes.</p>
+              <p>Preventive care is a crucial aspect of periodontics. Regular periodontal check-ups and cleanings help maintain gum health and prevent the progression of disease. Periodontists also provide education on proper oral hygiene practices, such as effective brushing and flossing techniques, and lifestyle modifications to reduce risk factors for gum disease.</p>
+              <p>By focusing on the health of the gums and supporting structures, periodontics plays a vital role in maintaining overall oral health and preventing tooth loss. Periodontists work closely with general dentists and other specialists to ensure comprehensive care for patients with periodontal concerns.</p>
+              <div class="prices">
+                
+                  <ul>
+                      <li>Children (0-12 years): $75 - $150</li>
+                      <li>Teens (13-17 years): $100 - $200</li>
+                      <li>Adults (18+ years): $150 - $300</li>
+                  </ul>
+              </div>
+              <a href="./BookingPg.html">
+                <button type="button" class="btn btn-dark" style="transform: translateX(600px);">Request an Appointment</button>
+              </a> 
+            </div>
+      </div>
+  
+      </div>
+
+
+
+
+      <footer class="footer-custom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 ps-5 my-1  fs-4 h-75 d-inline-block ">
+              <a class="footer-brand" href="index.html">
+                <img src="assets/LOGO.png" alt="BrightSmile Logo">
+                BrightSmile Dental
+              </a>
+            </div>
+            <div class="col-md-2">
+              <h5>Navigate</h5>
+              <ul class="list-unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h5>About Us</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Our Dentists</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Services</h5>
+              <ul class="list-unstyled">
+                <li><a href="GeneralDentistry.html">General Dentistry</a></li>
+            <li><a href="PreventiveDentistry.html">Preventive Dentistry</a></li>
+            <li><a href="Periodontics.html">Periodontics</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>  
+        </body> 
+    </html>
